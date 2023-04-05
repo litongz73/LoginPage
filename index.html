@@ -1,0 +1,80 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="container">
+      <div class="row">
+        <input
+          type="text"
+          class="inbox"
+          name="firstname"
+          maxlength="24"
+          placeholder="First Name"
+        />
+        <input
+          type="text"
+          class="inbox"
+          name="lastname"
+          maxlength="24"
+          placeholder="Last Name"
+        />
+      </div>
+      <input
+        type="text"
+        class="inboxLong"
+        name="mobile"
+        maxlength="48"
+        placeholder="Mobile No."
+      />
+      <input
+        type="text"
+        class="inboxLong"
+        name="email"
+        maxlength="48"
+        placeholder="Email Address"
+      />
+      <div class="row">
+        <input
+          type="password"
+          class="inbox"
+          name="password"
+          maxlength="24"
+          placeholder="Password"
+        />
+        <input
+          type="password"
+          class="inbox"
+          name="passwordConf"
+          maxlength="24"
+          placeholder="Confrom Password"
+        />
+      </div>
+      <div id="useragreement">
+        <label id="agreementlabel"
+          ><input type="checkbox" id="user" />I agree</label
+        >
+        <div id="agreementtext">
+          <span class="text">By clicking</span>
+          <span class="buttonicon"> Register</span>
+          <span class="text">, you agree to the</span>
+          <a href="https://www.google.com"> Terms and Conditions</a>
+          <span class="text"
+            >,set out by this site, including our Cookie Use.</span
+          >
+        </div>
+      </div>
+
+      <div id="buttons" class="row">
+        <button type="button" id="register" class="inbox button">
+          Register
+        </button>
+        <button type="button" id="signin" class="inbox button">Sign-in</button>
+      </div>
+    </div>
+  </body>
+</html>
