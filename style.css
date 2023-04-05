@@ -79,6 +79,7 @@ h2 {
   color: white;
   font-size: 16px;
   font-weight: bold;
+  text-indent: 0px !important;
 }
 
 #register {
@@ -86,6 +87,7 @@ h2 {
   color: white;
   font-size: 16px;
   font-weight: bold;
+  text-indent: 0px !important;
 }
 
 .buttonicon {
@@ -97,11 +99,7 @@ h2 {
   border-radius: 6px;
 }
 
-input[type='text']:focus {
-  outline: 2px solid rgb(96, 208, 245);
-}
-
-input[type='password']:focus {
+input:focus {
   outline: 2px solid rgb(96, 208, 245);
 }
 
